@@ -1,0 +1,1 @@
+export type Perfil = 'VENDEDOR' | 'ESTOQUISTA';
