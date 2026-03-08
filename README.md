@@ -1,5 +1,18 @@
 # App E-commerce Sale
+<div align="center">
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="50" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" height="50" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" height="50" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original-wordmark.svg" height="50" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="50" />
+
+</div>
+          
 Sistema ERP focado em roupas desenvolvido como projeto fullstack, composto por um backend em Spring Boot e um frontend em TypeScript utilizando Vite.
 
 O objetivo do projeto é simular um sistema de gerenciamento de vendas de produtos, permitindo cadastro de produtos, registro de vendas e visualização de métricas através de um dashboard.
@@ -37,7 +50,9 @@ Certifique-se de ter instalado em sua máquina:
 - **Java JDK 17 ou superior**
 - **Maven**
 - Uma **IDE** de sua preferência (IntelliJ, VSCode, Eclipse ou STS)
-. Você pode verificar as versões instaladas com:
+- **PostgreSQL**
+
+Você pode verificar as versões instaladas com:
 ``java -version``
 ``mvn -version``
 
@@ -64,7 +79,7 @@ app.cors.allowed-origins=http://localhost:5173
 ```
 
 ### 4️⃣ Executar a aplicação
-Execute o seguinte comando: ``mvn spring-boot:run``. Ou execute a classe principal da aplicação pela sua IDE.
+Coloque o banco de dados PostgreSQL em execução, pois a aplicação utiliza esse banco para armazenar as informações do sistema. Execute o seguinte comando: ``mvn spring-boot:run``. Ou execute a classe principal da aplicação pela sua IDE.
 
 ### 5️⃣ Acessar a aplicação
 Após iniciar o servidor, a API estará disponível em: ``http://localhost:8080``
